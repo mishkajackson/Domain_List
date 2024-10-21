@@ -21,6 +21,14 @@ payload:
   - DOMAIN-SUFFIX,cdninstagram.com
   - DOMAIN-SUFFIX,static.cdninstagram.com
   - DOMAIN-KEYWORD,instagram
+  #discord
+  - DOMAIN-KEYWORD,discord
+  - DOMAIN-SUFFIX,airhorn.solutions
+  - DOMAIN-SUFFIX,airhornbot.com
+  - DOMAIN-SUFFIX,bigbeans.solutions
+  - DOMAIN-SUFFIX,dis.gd
+  - DOMAIN-SUFFIX,hammerandchisel.ssl.zendesk.com
+  - DOMAIN-SUFFIX,watchanimeattheoffice.com
   #love
   - DOMAIN-SUFFIX,xhamster.com
   - DOMAIN-SUFFIX,xvideos.com
