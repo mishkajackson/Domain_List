@@ -1,5 +1,33 @@
 payload:
   - DOMAIN-KEYWORD,discord
+  - DOMAIN-SUFFIX,airhorn.solutions
+  - DOMAIN-SUFFIX,airhornbot.com
+  - DOMAIN-SUFFIX,bigbeans.solutions
+  - DOMAIN-SUFFIX,dis.gd
+  - DOMAIN-SUFFIX,discord-activities.com
+  - DOMAIN-SUFFIX,discord.co
+  - DOMAIN-SUFFIX,discord.com
+  - DOMAIN-SUFFIX,discord.design
+  - DOMAIN-SUFFIX,discord.dev
+  - DOMAIN-SUFFIX,discord.gg
+  - DOMAIN-SUFFIX,discord.gift
+  - DOMAIN-SUFFIX,discord.gifts
+  - DOMAIN-SUFFIX,discord.media
+  - DOMAIN-SUFFIX,discord.new
+  - DOMAIN-SUFFIX,discord.store
+  - DOMAIN-SUFFIX,discord.tools
+  - DOMAIN-SUFFIX,discordactivities.com
+  - DOMAIN-SUFFIX,discordapp.com
+  - DOMAIN-SUFFIX,discordapp.io
+  - DOMAIN-SUFFIX,discordapp.net
+  - DOMAIN-SUFFIX,discordapp.page.link
+  - DOMAIN-SUFFIX,discordcdn.com
+  - DOMAIN-SUFFIX,discordmerch.com
+  - DOMAIN-SUFFIX,discordpartygames.com
+  - DOMAIN-SUFFIX,discordsays.com
+  - DOMAIN-SUFFIX,discordstatus.com
+  - DOMAIN-SUFFIX,hammerandchisel.ssl.zendesk.com
+  - DOMAIN-SUFFIX,watchanimeattheoffice.com
   - IP-CIDR,162.159.128.0/24
   - IP-CIDR,162.159.129.0/24
   - IP-CIDR,162.159.130.0/24
@@ -17,4 +45,4 @@ payload:
   - IP-CIDR,35.240.0.0/13
   - IP-CIDR,5.200.14.128/25
   - IP-CIDR,66.22.192.0/18
-  - IP-CIDR,66.22.216.0/23,PROXY
+  - IP-CIDR,66.22.216.0/23
