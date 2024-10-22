@@ -1,4 +1,5 @@
 import os
+import json
 
 def parse_list_file(filename):
     if not os.path.exists(filename):
@@ -17,7 +18,7 @@ def parse_list_file(filename):
             current_category = line  # Название категории
             rules[current_category] = []
         elif line and current_category:
-            rules[current_category].append(line)  # Сохраняем домен
+            rules[current_category].append(line)
 
     print(f"Parsed rules: {rules}")  # Отладочный вывод
     return rules
@@ -49,9 +50,36 @@ update-url = https://raw.githubusercontent.com/mishkajackson/Domain_List/refs/he
         for category, domains in rules.items():
             f.write(f"\n{category}\n")
             for domain in domains:
-                # Избавляемся от дублирования "DOMAIN-SUFFIX" и других ключевых слов
                 clean_domain = domain.replace('DOMAIN-SUFFIX,', '').replace('DOMAIN-KEYWORD,', '')
                 f.write(f"DOMAIN-SUFFIX,{clean_domain},PROXY\n")
+    print(f"{output_file} generated successfully.")
+
+def generate_karing_json(rules, output_file='Karing.json'):
+    print(f"Generating {output_file}...")
+    domain_keyword = []
+    domain_suffix = []
+
+    for domains in rules.values():
+        for domain in domains:
+            if domain.startswith('DOMAIN-KEYWORD'):
+                keyword = domain.split(',', 1)[1]
+                domain_keyword.append(keyword)
+            elif domain.startswith('DOMAIN-SUFFIX'):
+                suffix = domain.split(',', 1)[1]
+                domain_suffix.append(suffix)
+
+    karing_data = {
+        "version": 1,
+        "rules": [
+            {
+                "domain_keyword": domain_keyword,
+                "domain_suffix": domain_suffix
+            }
+        ]
+    }
+
+    with open(output_file, 'w') as f:
+        json.dump(karing_data, f, indent=4)
     print(f"{output_file} generated successfully.")
 
 if __name__ == "__main__":
@@ -60,5 +88,6 @@ if __name__ == "__main__":
     if rules:
         generate_clash_yaml(rules)
         generate_shadowrocket_conf(rules)
+        generate_karing_json(rules)
     else:
         print("No rules found. Exiting.")
