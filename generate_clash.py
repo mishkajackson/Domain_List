@@ -2,14 +2,14 @@ import yaml
 import json
 
 def parse_list_file(filename):
-    domain_suffix = set()  # Используем set для избежания дубликатов
+    domain_suffix = set()  # Убираем дубликаты
     domain_keyword = set()
 
     with open(filename, 'r') as f:
         for line in f:
             line = line.strip()
             if line.startswith('#'):
-                continue  # Пропускаем строки с комментариями
+                continue  # Пропуск комментариев
             elif line:
                 if 'DOMAIN-SUFFIX' in line:
                     domain = line.split(',', 1)[1].strip()
@@ -29,7 +29,7 @@ def generate_karing_json(domain_suffix, domain_keyword):
         }]
     }
     with open('Karing.json', 'w') as f:
-        json.dump(karing_config, f, separators=(',', ':'))  # Генерация в одну строку
+        json.dump(karing_config, f, separators=(', ', ': '), ensure_ascii=False)
 
 def generate_shadowrocket_conf(domain_suffix, domain_keyword):
     with open('Shadowrocket.conf', 'w') as f:
