@@ -1,67 +1,57 @@
 payload:
-  # youtube
-  - DOMAIN-SUFFIX,i.ytimg.com
-  - DOMAIN-SUFFIX,ytimg.com
-  - DOMAIN-SUFFIX,googlevideo.com
-  - DOMAIN-SUFFIX,youtube.com
-  - DOMAIN-SUFFIX,ggpht.com
-  - DOMAIN-SUFFIX,youtubei.googleapis.com
-  - DOMAIN-SUFFIX,youtu.be
-  - DOMAIN-SUFFIX,nhacmp3youtube.com
-  - DOMAIN-SUFFIX,googleusercontent.com
-  - DOMAIN-SUFFIX,nhacmp3youtube.com
-  - DOMAIN-SUFFIX,youtube-nocookie.com
-  # AI
-  - DOMAIN-SUFFIX,openai.com
-  - DOMAIN-SUFFIX,chatgpt.com
-  - DOMAIN-SUFFIX,copilot.microsoft.com
-  - DOMAIN-KEYWORD,openai
-  # instagram
-  - DOMAIN-SUFFIX,instagram.com
-  - DOMAIN-SUFFIX,cdninstagram.com
-  - DOMAIN-SUFFIX,static.cdninstagram.com
-  - DOMAIN-KEYWORD,instagram
-  # love
-  - DOMAIN-SUFFIX,xhamster.com
-  - DOMAIN-SUFFIX,xvideos.com
-  - DOMAIN-SUFFIX,xv-ru.com
-  - DOMAIN-SUFFIX,spankbang.com
-  - DOMAIN-SUFFIX,pornolab.net
-  - DOMAIN-SUFFIX,pornhub.com
-  - DOMAIN-SUFFIX,tubesafari.com
-  - DOMAIN-SUFFIX,xnxx.com
-  # twitter
-  - DOMAIN-SUFFIX,x.com
-  - DOMAIN-SUFFIX,twitter.com
-  # kinopub
-  - DOMAIN-SUFFIX,kino.pub
-  - DOMAIN-SUFFIX,5c28.dpr.ovh
-  - DOMAIN-SUFFIX,kpapp.link
-  # torrent
-  - DOMAIN-SUFFIX,thepiratebay.org
-  - DOMAIN-KEYWORD,rutracker
-  - DOMAIN-KEYWORD,rutor
-  # check
-  - DOMAIN-SUFFIX,whoer.net
-  - DOMAIN-SUFFIX,myip.com
-  - DOMAIN-SUFFIX,check-host.net
+  - DOMAIN-SUFFIX,medium.com
   - DOMAIN-SUFFIX,ipleak.net
+  - DOMAIN-SUFFIX,xv-ru.com
+  - DOMAIN-SUFFIX,copilot.microsoft.com
+  - DOMAIN-SUFFIX,amnezia.org
+  - DOMAIN-SUFFIX,xhamster.com
+  - DOMAIN-SUFFIX,miracleptr.wordpress.com
+  - DOMAIN-SUFFIX,youtube-nocookie.com
+  - DOMAIN-SUFFIX,kino.pub
+  - DOMAIN-SUFFIX,x.com
   - DOMAIN-SUFFIX,browserleaks.com
-  # other
+  - DOMAIN-SUFFIX,openai.com
+  - DOMAIN-SUFFIX,nhacmp3youtube.com
+  - DOMAIN-SUFFIX,spankbang.com
+  - DOMAIN-SUFFIX,chatgpt.com
+  - DOMAIN-SUFFIX,googleusercontent.com
+  - DOMAIN-SUFFIX,check-host.net
+  - DOMAIN-SUFFIX,meduza.io
+  - DOMAIN-SUFFIX,cdninstagram.com
+  - DOMAIN-SUFFIX,facebook.com
+  - DOMAIN-SUFFIX,xvideos.com
+  - DOMAIN-SUFFIX,youtubei.googleapis.com
   - DOMAIN-SUFFIX,flibusta.su
   - DOMAIN-SUFFIX,ficbook.net
-  - DOMAIN-SUFFIX,zerolab.net
-  - DOMAIN-SUFFIX,amnezia.org
-  - DOMAIN-SUFFIX,facebook.com
-  - DOMAIN-SUFFIX,meduza.io
-  - DOMAIN-SUFFIX,mos-gorsud.net
+  - DOMAIN-SUFFIX,whoer.net
+  - DOMAIN-SUFFIX,static.cdninstagram.com
+  - DOMAIN-SUFFIX,twitter.com
+  - DOMAIN-SUFFIX,pornhub.com
+  - DOMAIN-SUFFIX,kpapp.link
+  - DOMAIN-SUFFIX,rublacklist.net
+  - DOMAIN-SUFFIX,thepiratebay.org
+  - DOMAIN-SUFFIX,youtu.be
   - DOMAIN-SUFFIX,4pda.to
+  - DOMAIN-SUFFIX,instagram.com
+  - DOMAIN-SUFFIX,tubesafari.com
   - DOMAIN-SUFFIX,ua
   - DOMAIN-SUFFIX,habr.com
-  - DOMAIN-SUFFIX,medium.com
-  - DOMAIN-SUFFIX,rublacklist.net
-  - DOMAIN-SUFFIX,ntc.party
-  - DOMAIN-SUFFIX,miracleptr.wordpress.com
-  - DOMAIN-SUFFIX,itdog.info
+  - DOMAIN-SUFFIX,ytimg.com
+  - DOMAIN-SUFFIX,youtube.com
   - DOMAIN-SUFFIX,speedtest.net
+  - DOMAIN-SUFFIX,ggpht.com
+  - DOMAIN-SUFFIX,zerolab.net
+  - DOMAIN-SUFFIX,googlevideo.com
+  - DOMAIN-SUFFIX,myip.com
+  - DOMAIN-SUFFIX,itdog.info
+  - DOMAIN-SUFFIX,mos-gorsud.net
+  - DOMAIN-SUFFIX,pornolab.net
+  - DOMAIN-SUFFIX,5c28.dpr.ovh
+  - DOMAIN-SUFFIX,i.ytimg.com
+  - DOMAIN-SUFFIX,ntc.party
+  - DOMAIN-SUFFIX,xnxx.com
   - DOMAIN-KEYWORD,adguard
+  - DOMAIN-KEYWORD,openai
+  - DOMAIN-KEYWORD,rutracker
+  - DOMAIN-KEYWORD,instagram
+  - DOMAIN-KEYWORD,rutor
