@@ -1,16 +1,1 @@
-{
-  "version": 1,
-  "rules": [
-    {
-      "domain_suffix": [
-        "whoer.net"
-      ],
-      "domain": [
-        "whoer.net"
-      ],
-      "domain_keyword": [
-        "openai"
-      ]
-    }
-  ]
-}
+{"version": 1, "rules": [{"domain_keyword": ["uk-live"], "domain_suffix": ["bbc.co", "whoer.net"]}]}
