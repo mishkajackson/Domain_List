@@ -1,5 +1,5 @@
 payload:
-  #youtube
+  #youtube2
   - DOMAIN-SUFFIX,i.ytimg.com
   - DOMAIN-SUFFIX,ytimg.com
   - DOMAIN-SUFFIX,googlevideo.com
