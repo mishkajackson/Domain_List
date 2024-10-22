@@ -2,35 +2,36 @@ import yaml
 import json
 
 def parse_list_file(filename):
-    rules = {}
+    domain_suffix = set()  # Используем set для избежания дубликатов
+    domain_keyword = set()
+
     with open(filename, 'r') as f:
-        current_category = None
         for line in f:
             line = line.strip()
             if line.startswith('#'):
-                current_category = line[1:].strip()
-                rules[current_category] = {'domain_suffix': [], 'domain_keyword': []}
+                continue  # Пропускаем строки с комментариями
             elif line:
                 if 'DOMAIN-SUFFIX' in line:
                     domain = line.split(',', 1)[1].strip()
-                    rules[current_category]['domain_suffix'].append(domain)
+                    domain_suffix.add(domain)
                 elif 'DOMAIN-KEYWORD' in line:
                     keyword = line.split(',', 1)[1].strip()
-                    rules[current_category]['domain_keyword'].append(keyword)
-    return rules
+                    domain_keyword.add(keyword)
 
-def generate_karing_json(rules):
-    karing_rules = []
-    for category, domains in rules.items():
-        karing_rules.append({
-            "domain_keyword": domains.get('domain_keyword', []),
-            "domain_suffix": domains.get('domain_suffix', [])
-        })
-    karing_config = {"version": 1, "rules": karing_rules}
+    return list(domain_suffix), list(domain_keyword)
+
+def generate_karing_json(domain_suffix, domain_keyword):
+    karing_config = {
+        "version": 1,
+        "rules": [{
+            "domain_keyword": domain_keyword,
+            "domain_suffix": domain_suffix
+        }]
+    }
     with open('Karing.json', 'w') as f:
         json.dump(karing_config, f, separators=(',', ':'))  # Генерация в одну строку
 
-def generate_shadowrocket_conf(rules):
+def generate_shadowrocket_conf(domain_suffix, domain_keyword):
     with open('Shadowrocket.conf', 'w') as f:
         f.write("[General]\n")
         f.write("bypass-system = true\n")
@@ -42,25 +43,21 @@ def generate_shadowrocket_conf(rules):
         f.write("fallback-dns-server = system\n")
         f.write("update-url = https://raw.githubusercontent.com/mishkajackson/Domain_List/refs/heads/main/Shadowrocket.conf\n\n")
         f.write("[Rule]\n")
-        for category, domains in rules.items():
-            f.write(f"#{category}\n")
-            for domain in domains['domain_suffix']:
-                f.write(f"DOMAIN-SUFFIX,{domain},PROXY\n")
-            for keyword in domains['domain_keyword']:
-                f.write(f"DOMAIN-KEYWORD,{keyword},PROXY\n")
+        for domain in domain_suffix:
+            f.write(f"DOMAIN-SUFFIX,{domain},PROXY\n")
+        for keyword in domain_keyword:
+            f.write(f"DOMAIN-KEYWORD,{keyword},PROXY\n")
 
-def generate_clash_yaml(rules):
+def generate_clash_yaml(domain_suffix, domain_keyword):
     with open('Clash.yaml', 'w') as f:
         f.write("payload:\n")
-        for category, domains in rules.items():
-            f.write(f"  # {category}\n")
-            for domain in domains['domain_suffix']:
-                f.write(f"  - DOMAIN-SUFFIX,{domain}\n")
-            for keyword in domains['domain_keyword']:
-                f.write(f"  - DOMAIN-KEYWORD,{keyword}\n")
+        for domain in domain_suffix:
+            f.write(f"  - DOMAIN-SUFFIX,{domain}\n")
+        for keyword in domain_keyword:
+            f.write(f"  - DOMAIN-KEYWORD,{keyword}\n")
 
 if __name__ == "__main__":
-    rules = parse_list_file('list.lst')
-    generate_clash_yaml(rules)
-    generate_shadowrocket_conf(rules)
-    generate_karing_json(rules)
+    domain_suffix, domain_keyword = parse_list_file('list.lst')
+    generate_clash_yaml(domain_suffix, domain_keyword)
+    generate_shadowrocket_conf(domain_suffix, domain_keyword)
+    generate_karing_json(domain_suffix, domain_keyword)
