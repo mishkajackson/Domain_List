@@ -1,1 +1,1 @@
-{"version": 1, "rules": [{"domain_keyword": ["uk-live"], "domain_suffix": ["bbc.co", "whoer.net"]}]}
+{"version": 1, "rules": [{"domain_keyword": ["openai"], "domain_suffix": ["youtube.com", "whoer.net"]}]}
