@@ -29,7 +29,7 @@ def generate_karing_json(domain_suffix, domain_keyword):
         }]
     }
     with open('Karing.json', 'w') as f:
-        json.dump(karing_config, f, separators=(', ', ': '), ensure_ascii=False)
+        json.dump(karing_config, f, indent=4, ensure_ascii=False)
 
 def generate_shadowrocket_conf(domain_suffix, domain_keyword):
     with open('Shadowrocket.conf', 'w') as f:
