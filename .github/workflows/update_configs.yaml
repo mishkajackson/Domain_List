@@ -22,7 +22,7 @@ jobs:
       run: pip install pyyaml
 
     - name: Generate Clash, Shadowrocket, and Karing Configs
-      run: python generate_clash.py
+      run: python generate_configs.py
 
     - name: Commit and push changes
       run: |
