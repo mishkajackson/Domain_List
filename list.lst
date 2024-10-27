@@ -1,5 +1,4 @@
 #youtube
-DOMAIN-KEYWORD,youtube
 DOMAIN-SUFFIX,i.ytimg.com
 DOMAIN-SUFFIX,ytimg.com
 DOMAIN-SUFFIX,googlevideo.com
@@ -44,6 +43,7 @@ DOMAIN-SUFFIX,kino.pub
 DOMAIN-SUFFIX,5c28.dpr.ovh
 DOMAIN-SUFFIX,kpapp.link
 DOMAIN-SUFFIX,kinopub.online
+DOMAIN-SUFFIX,mos-gorsud.net
 DOMAIN-SUFFIX,cdntogo.net
 
 #torrent
@@ -67,7 +67,6 @@ DOMAIN-SUFFIX,rentry.co
 DOMAIN-SUFFIX,amnezia.org
 DOMAIN-SUFFIX,facebook.com
 DOMAIN-SUFFIX,meduza.io
-DOMAIN-SUFFIX,mos-gorsud.net
 DOMAIN-SUFFIX,4pda.to
 DOMAIN-SUFFIX,ua
 DOMAIN-SUFFIX,habr.com
