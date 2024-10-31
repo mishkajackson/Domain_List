@@ -30,4 +30,5 @@ payload:
   - DOMAIN-SUFFIX,watchanimeattheoffice.com
   - IP-CIDR,66.22.192.0/18
   - IP-CIDR,66.22.216.0/23
+  - IP-CIDR,5.200.14.128/25
 
