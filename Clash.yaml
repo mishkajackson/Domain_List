@@ -1,65 +1,75 @@
 payload:
-  - DOMAIN-SUFFIX,youtube.com
-  - DOMAIN-SUFFIX,ntc.party
-  - DOMAIN-SUFFIX,twimg.com
-  - DOMAIN-SUFFIX,openai.com
-  - DOMAIN-SUFFIX,mos-gorsud.net
-  - DOMAIN-SUFFIX,static.cdninstagram.com
-  - DOMAIN-SUFFIX,speedtest.net
-  - DOMAIN-SUFFIX,kinopub.online
-  - DOMAIN-SUFFIX,rentry.co
-  - DOMAIN-SUFFIX,youtubei.googleapis.com
+  - DOMAIN-SUFFIX,claude.ai
+  - DOMAIN-SUFFIX,anthropic.com
+  - DOMAIN-SUFFIX,ficbook.net
+  - DOMAIN-SUFFIX,kpapp.link
   - DOMAIN-SUFFIX,browserleaks.com
-  - DOMAIN-SUFFIX,kino.pub
-  - DOMAIN-SUFFIX,nhacmp3youtube.com
-  - DOMAIN-SUFFIX,instagram.com
-  - DOMAIN-SUFFIX,myip.com
-  - DOMAIN-SUFFIX,amnezia.org
-  - DOMAIN-SUFFIX,xnxx.com
-  - DOMAIN-SUFFIX,googleusercontent.com
-  - DOMAIN-SUFFIX,rublacklist.net
-  - DOMAIN-SUFFIX,ggpht.com
-  - DOMAIN-SUFFIX,flibusta.su
-  - DOMAIN-SUFFIX,googlevideo.com
-  - DOMAIN-SUFFIX,x.com
-  - DOMAIN-SUFFIX,facebook.com
-  - DOMAIN-SUFFIX,cdninstagram.com
-  - DOMAIN-SUFFIX,ua
-  - DOMAIN-SUFFIX,medium.com
-  - DOMAIN-SUFFIX,xv-ru.com
-  - DOMAIN-SUFFIX,ytimg.com
-  - DOMAIN-SUFFIX,copilot.microsoft.com
-  - DOMAIN-SUFFIX,aws.amazon.com
-  - DOMAIN-SUFFIX,itdog.info
-  - DOMAIN-SUFFIX,i.ytimg.com
-  - DOMAIN-SUFFIX,5c28.dpr.ovh
+  - DOMAIN-SUFFIX,hsforms.net
   - DOMAIN-SUFFIX,xhamster.com
+  - DOMAIN-SUFFIX,flibusta.su
+  - DOMAIN-SUFFIX,xvideos.com
+  - DOMAIN-SUFFIX,speedtest.net
+  - DOMAIN-SUFFIX,tubesafari.com
+  - DOMAIN-SUFFIX,rentry.co
+  - DOMAIN-SUFFIX,ua
+  - DOMAIN-SUFFIX,openai.com
+  - DOMAIN-SUFFIX,chatgpt.com
+  - DOMAIN-SUFFIX,cdninstagram.com
+  - DOMAIN-SUFFIX,4pda.to
+  - DOMAIN-SUFFIX,xbdfgdf.link
+  - DOMAIN-SUFFIX,zerolab.net
+  - DOMAIN-SUFFIX,nhacmp3youtube.com
+  - DOMAIN-SUFFIX,youtube-nocookie.com
   - DOMAIN-SUFFIX,thepiratebay.org
+  - DOMAIN-SUFFIX,x.com
+  - DOMAIN-SUFFIX,cdntogo.net
+  - DOMAIN-SUFFIX,grazie.aws.intellij.net
+  - DOMAIN-SUFFIX,aws.amazon.com
+  - DOMAIN-SUFFIX,facebook.com
+  - DOMAIN-SUFFIX,itdog.info
+  - DOMAIN-SUFFIX,rublacklist.net
+  - DOMAIN-SUFFIX,ntc.party
+  - DOMAIN-SUFFIX,pornhub.com
+  - DOMAIN-SUFFIX,mos-gorsud.net
+  - DOMAIN-SUFFIX,youtu.be
+  - DOMAIN-SUFFIX,ggpht.com
+  - DOMAIN-SUFFIX,kino.pub
+  - DOMAIN-SUFFIX,youtube.com
+  - DOMAIN-SUFFIX,whoer.net
+  - DOMAIN-SUFFIX,generativelanguage.googleapis.com
+  - DOMAIN-SUFFIX,5c28.dpr.ovh
+  - DOMAIN-SUFFIX,ytimg.com
+  - DOMAIN-SUFFIX,bard.google.com
+  - DOMAIN-SUFFIX,ipleak.net
   - DOMAIN-SUFFIX,habr.com
   - DOMAIN-SUFFIX,miracleptr.wordpress.com
   - DOMAIN-SUFFIX,spankbang.com
+  - DOMAIN-SUFFIX,youtubei.googleapis.com
+  - DOMAIN-SUFFIX,gemini.google.com
+  - DOMAIN-SUFFIX,amnezia.org
   - DOMAIN-SUFFIX,check-host.net
-  - DOMAIN-SUFFIX,youtu.be
-  - DOMAIN-SUFFIX,chatgpt.com
-  - DOMAIN-SUFFIX,tubesafari.com
-  - DOMAIN-SUFFIX,kpapp.link
-  - DOMAIN-SUFFIX,zerolab.net
-  - DOMAIN-SUFFIX,youtube-nocookie.com
-  - DOMAIN-SUFFIX,pornhub.com
-  - DOMAIN-SUFFIX,ficbook.net
-  - DOMAIN-SUFFIX,meduza.io
-  - DOMAIN-SUFFIX,ipleak.net
-  - DOMAIN-SUFFIX,cdntogo.net
-  - DOMAIN-SUFFIX,xvideos.com
-  - DOMAIN-SUFFIX,4pda.to
-  - DOMAIN-SUFFIX,pornolab.net
-  - DOMAIN-SUFFIX,whoer.net
-  - DOMAIN-SUFFIX,kpappn.link
   - DOMAIN-SUFFIX,youtubetoken-pa.googleapis.com
-  - DOMAIN-SUFFIX,xbdfgdf.link
-  - DOMAIN-KEYWORD,openai
-  - DOMAIN-KEYWORD,twitter
-  - DOMAIN-KEYWORD,rutracker
+  - DOMAIN-SUFFIX,i.ytimg.com
+  - DOMAIN-SUFFIX,instagram.com
+  - DOMAIN-SUFFIX,copilot.microsoft.com
+  - DOMAIN-SUFFIX,twimg.com
+  - DOMAIN-SUFFIX,myip.com
+  - DOMAIN-SUFFIX,grazie.ai
+  - DOMAIN-SUFFIX,googlevideo.com
+  - DOMAIN-SUFFIX,xnxx.com
+  - DOMAIN-SUFFIX,static.cdninstagram.com
+  - DOMAIN-SUFFIX,makersuite.google.com
+  - DOMAIN-SUFFIX,xv-ru.com
+  - DOMAIN-SUFFIX,meduza.io
+  - DOMAIN-SUFFIX,googleusercontent.com
+  - DOMAIN-SUFFIX,medium.com
+  - DOMAIN-SUFFIX,kpappn.link
+  - DOMAIN-SUFFIX,kinopub.online
+  - DOMAIN-SUFFIX,alkalimakersuite-pa.clients6.google.com
+  - DOMAIN-SUFFIX,pornolab.net
   - DOMAIN-KEYWORD,adguard
+  - DOMAIN-KEYWORD,rutracker
+  - DOMAIN-KEYWORD,twitter
   - DOMAIN-KEYWORD,instagram
   - DOMAIN-KEYWORD,rutor
+  - DOMAIN-KEYWORD,openai
