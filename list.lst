@@ -76,6 +76,7 @@ DOMAIN-SUFFIX,myip.com
 DOMAIN-SUFFIX,check-host.net
 DOMAIN-SUFFIX,ipleak.net
 DOMAIN-SUFFIX,browserleaks.com
+DOMAIN-SUFFIX,dnsleaktest.com
 
 #other
 DOMAIN-SUFFIX,cloudflare-ech.com
