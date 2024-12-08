@@ -43,6 +43,7 @@ def generate_shadowrocket_conf(domain_suffix, domain_keyword):
         f.write("fallback-dns-server = system\n")
         f.write("update-url = https://raw.githubusercontent.com/mishkajackson/Domain_List/refs/heads/main/Shadowrocket.conf\n\n")
         f.write("[Rule]\n")
+        f.write("RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Discord/Discord.list,PROXY\n")
         for domain in domain_suffix:
             f.write(f"DOMAIN-SUFFIX,{domain},PROXY\n")
         for keyword in domain_keyword:
