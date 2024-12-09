@@ -1,113 +1,113 @@
 payload:
-  - DOMAIN-SUFFIX,youtube-nocookie.com
-  - DOMAIN-SUFFIX,tiktokcdn.com
-  - DOMAIN-SUFFIX,nhacmp3youtube.com
-  - DOMAIN-SUFFIX,twimg.com
-  - DOMAIN-SUFFIX,ipstatp.com
-  - DOMAIN-SUFFIX,xv-ru.com
-  - DOMAIN-SUFFIX,muscdn.com
-  - DOMAIN-SUFFIX,kpappn.link
-  - DOMAIN-SUFFIX,sgpstatp.com
-  - DOMAIN-SUFFIX,makersuite.google.com
-  - DOMAIN-SUFFIX,facebook.com
-  - DOMAIN-SUFFIX,alkalimakersuite-pa.clients6.google.com
   - DOMAIN-SUFFIX,ripe.net
-  - DOMAIN-SUFFIX,4pda.to
-  - DOMAIN-SUFFIX,ttwebview.com
-  - DOMAIN-SUFFIX,grazie.aws.intellij.net
+  - DOMAIN-SUFFIX,tiktokd.net
+  - DOMAIN-SUFFIX,x.com
+  - DOMAIN-SUFFIX,ficbook.fandom.com
+  - DOMAIN-SUFFIX,ipleak.net
+  - DOMAIN-SUFFIX,tiktokcdn.com
+  - DOMAIN-SUFFIX,tiktokv.us
+  - DOMAIN-SUFFIX,facebook.com
+  - DOMAIN-SUFFIX,i.ytimg.com
+  - DOMAIN-SUFFIX,ggpht.com
+  - DOMAIN-SUFFIX,speedtest.net
   - DOMAIN-SUFFIX,ficbook.net
-  - DOMAIN-SUFFIX,claude.ai
-  - DOMAIN-SUFFIX,byteoversea.com
+  - DOMAIN-SUFFIX,youtube-nocookie.com
+  - DOMAIN-SUFFIX,bytegecko-i18n.com
+  - DOMAIN-SUFFIX,ytimg.com
   - DOMAIN-SUFFIX,flibusta.su
   - DOMAIN-SUFFIX,ua
+  - DOMAIN-SUFFIX,4pda.to
+  - DOMAIN-SUFFIX,xnxx.com
+  - DOMAIN-SUFFIX,lf16-pkgcdn.pitaya-clientai.com
+  - DOMAIN-SUFFIX,chatgpt.com
+  - DOMAIN-SUFFIX,xvideos.com
+  - DOMAIN-SUFFIX,kpappn.link
+  - DOMAIN-SUFFIX,youtu.be
+  - DOMAIN-SUFFIX,zerolab.net
+  - DOMAIN-SUFFIX,musical.ly
+  - DOMAIN-SUFFIX,lf16-effectcdn.byteeffecttos-g.com
   - DOMAIN-SUFFIX,p16-tiktokcdn-com.akamaized.net
-  - DOMAIN-SUFFIX,hsforms.net
-  - DOMAIN-SUFFIX,x.ai
+  - DOMAIN-SUFFIX,openai.com
+  - DOMAIN-SUFFIX,aws.amazon.com
+  - DOMAIN-SUFFIX,medium.com
+  - DOMAIN-SUFFIX,sgpstatp.com
+  - DOMAIN-SUFFIX,copilot.microsoft.com
+  - DOMAIN-SUFFIX,kino.pub
+  - DOMAIN-SUFFIX,5c28.dpr.ovh
+  - DOMAIN-SUFFIX,anthropic.com
+  - DOMAIN-SUFFIX,tiktok.com
+  - DOMAIN-SUFFIX,amnezia.org
+  - DOMAIN-SUFFIX,youtubetoken-pa.googleapis.com
+  - DOMAIN-SUFFIX,itdog.info
+  - DOMAIN-SUFFIX,youtube.com
+  - DOMAIN-SUFFIX,muscdn.com
+  - DOMAIN-SUFFIX,ibytedtos.com
+  - DOMAIN-SUFFIX,rublacklist.net
+  - DOMAIN-SUFFIX,myip.com
+  - DOMAIN-SUFFIX,claude.ai
   - DOMAIN-SUFFIX,miracleptr.wordpress.com
-  - DOMAIN-SUFFIX,dnsleaktest.com
-  - DOMAIN-SUFFIX,tubesafari.com
-  - DOMAIN-SUFFIX,ficbook.fandom.com
+  - DOMAIN-SUFFIX,meduza.io
   - DOMAIN-SUFFIX,kpapp.link
+  - DOMAIN-SUFFIX,dnsleaktest.com
+  - DOMAIN-SUFFIX,tiktokcdn-us.com
+  - DOMAIN-SUFFIX,googlevideo.com
+  - DOMAIN-SUFFIX,whoer.net
+  - DOMAIN-SUFFIX,xhamster.com
+  - DOMAIN-SUFFIX,hsforms.net
+  - DOMAIN-SUFFIX,snssdk.com
+  - DOMAIN-SUFFIX,twimg.com
+  - DOMAIN-SUFFIX,googleusercontent.com
+  - DOMAIN-SUFFIX,pornhub.com
+  - DOMAIN-SUFFIX,cdntogo.net
+  - DOMAIN-SUFFIX,byteoversea.com
   - DOMAIN-SUFFIX,phprcdn.com
   - DOMAIN-SUFFIX,habr.com
-  - DOMAIN-SUFFIX,bytegecko-i18n.com
-  - DOMAIN-SUFFIX,tik-tokapi.com
-  - DOMAIN-SUFFIX,ytimg.com
-  - DOMAIN-SUFFIX,tiktokv.us
-  - DOMAIN-SUFFIX,etahub.com
-  - DOMAIN-SUFFIX,tiktok.com
-  - DOMAIN-SUFFIX,kinopub.online
+  - DOMAIN-SUFFIX,nhacmp3youtube.com
   - DOMAIN-SUFFIX,rentry.co
-  - DOMAIN-SUFFIX,gemini.google.com
-  - DOMAIN-SUFFIX,check-host.net
-  - DOMAIN-SUFFIX,ibyteimg.com
-  - DOMAIN-SUFFIX,generativelanguage.googleapis.com
-  - DOMAIN-SUFFIX,ipleak.net
-  - DOMAIN-SUFFIX,x.com
-  - DOMAIN-SUFFIX,pornhub.com
-  - DOMAIN-SUFFIX,aws.amazon.com
-  - DOMAIN-SUFFIX,xnxx.com
-  - DOMAIN-SUFFIX,tiktokd.org
-  - DOMAIN-SUFFIX,tiktokmusic.app
-  - DOMAIN-SUFFIX,itdog.info
-  - DOMAIN-SUFFIX,youtubei.googleapis.com
-  - DOMAIN-SUFFIX,lf16-effectcdn.byteeffecttos-g.com
-  - DOMAIN-SUFFIX,ggpht.com
-  - DOMAIN-SUFFIX,use.typekit.net
-  - DOMAIN-SUFFIX,youtube.com
-  - DOMAIN-SUFFIX,snssdk.com
-  - DOMAIN-SUFFIX,spankbang.com
-  - DOMAIN-SUFFIX,bard.google.com
-  - DOMAIN-SUFFIX,medium.com
-  - DOMAIN-SUFFIX,i.ytimg.com
-  - DOMAIN-SUFFIX,chatgpt.com
-  - DOMAIN-SUFFIX,instagram.com
-  - DOMAIN-SUFFIX,tiktokd.net
+  - DOMAIN-SUFFIX,ttwebview.com
   - DOMAIN-SUFFIX,mos-gorsud.net
-  - DOMAIN-SUFFIX,musical.ly
-  - DOMAIN-SUFFIX,zerolab.net
-  - DOMAIN-SUFFIX,speedtest.net
-  - DOMAIN-SUFFIX,openai.com
-  - DOMAIN-SUFFIX,xhcdn.com
+  - DOMAIN-SUFFIX,ipstatp.com
+  - DOMAIN-SUFFIX,xv-ru.com
+  - DOMAIN-SUFFIX,bard.google.com
+  - DOMAIN-SUFFIX,tiktokmusic.app
+  - DOMAIN-SUFFIX,dtf.ru
+  - DOMAIN-SUFFIX,grazie.aws.intellij.net
   - DOMAIN-SUFFIX,isnssdk.com
-  - DOMAIN-SUFFIX,xhamster.com
-  - DOMAIN-SUFFIX,lf16-pkgcdn.pitaya-clientai.com
-  - DOMAIN-SUFFIX,kino.pub
-  - DOMAIN-SUFFIX,rublacklist.net
-  - DOMAIN-SUFFIX,anthropic.com
-  - DOMAIN-SUFFIX,copilot.microsoft.com
-  - DOMAIN-SUFFIX,amnezia.org
-  - DOMAIN-SUFFIX,googleusercontent.com
-  - DOMAIN-SUFFIX,cdninstagram.com
-  - DOMAIN-SUFFIX,meduza.io
-  - DOMAIN-SUFFIX,xvideos.com
-  - DOMAIN-SUFFIX,youtu.be
+  - DOMAIN-SUFFIX,alkalimakersuite-pa.clients6.google.com
+  - DOMAIN-SUFFIX,makersuite.google.com
+  - DOMAIN-SUFFIX,use.typekit.net
+  - DOMAIN-SUFFIX,xhcdn.com
   - DOMAIN-SUFFIX,capcut.com
-  - DOMAIN-SUFFIX,thepiratebay.org
-  - DOMAIN-SUFFIX,bytedapm.com
-  - DOMAIN-SUFFIX,tiktokv.com
-  - DOMAIN-SUFFIX,ibytedtos.com
-  - DOMAIN-SUFFIX,googlevideo.com
-  - DOMAIN-SUFFIX,cdntogo.net
-  - DOMAIN-SUFFIX,myip.com
-  - DOMAIN-SUFFIX,tiktokcdn-us.com
-  - DOMAIN-SUFFIX,static.cdninstagram.com
-  - DOMAIN-SUFFIX,browserleaks.com
-  - DOMAIN-SUFFIX,5c28.dpr.ovh
-  - DOMAIN-SUFFIX,xbdfgdf.link
   - DOMAIN-SUFFIX,pornolab.net
+  - DOMAIN-SUFFIX,grazie.ai
+  - DOMAIN-SUFFIX,etahub.com
+  - DOMAIN-SUFFIX,ntc.party
+  - DOMAIN-SUFFIX,youtubei.googleapis.com
+  - DOMAIN-SUFFIX,tiktokd.org
+  - DOMAIN-SUFFIX,bytedapm.com
+  - DOMAIN-SUFFIX,gemini.google.com
+  - DOMAIN-SUFFIX,static.cdninstagram.com
+  - DOMAIN-SUFFIX,spankbang.com
   - DOMAIN-SUFFIX,cloudflare-ech.com
   - DOMAIN-SUFFIX,phncdn.com
-  - DOMAIN-SUFFIX,ntc.party
-  - DOMAIN-SUFFIX,youtubetoken-pa.googleapis.com
-  - DOMAIN-SUFFIX,grazie.ai
-  - DOMAIN-SUFFIX,dtf.ru
-  - DOMAIN-SUFFIX,whoer.net
+  - DOMAIN-SUFFIX,tubesafari.com
+  - DOMAIN-SUFFIX,generativelanguage.googleapis.com
+  - DOMAIN-SUFFIX,x.ai
+  - DOMAIN-SUFFIX,ibyteimg.com
+  - DOMAIN-SUFFIX,tik-tokapi.com
+  - DOMAIN-SUFFIX,thepiratebay.org
+  - DOMAIN-SUFFIX,cdninstagram.com
+  - DOMAIN-SUFFIX,tiktokv.com
+  - DOMAIN-SUFFIX,kinopub.online
+  - DOMAIN-SUFFIX,instagram.com
+  - DOMAIN-SUFFIX,browserleaks.com
+  - DOMAIN-SUFFIX,xbdfgdf.link
+  - DOMAIN-SUFFIX,check-host.net
   - DOMAIN-KEYWORD,openai
-  - DOMAIN-KEYWORD,musical.ly
   - DOMAIN-KEYWORD,instagram
+  - DOMAIN-KEYWORD,rutor
+  - DOMAIN-KEYWORD,musical.ly
   - DOMAIN-KEYWORD,twitter
   - DOMAIN-KEYWORD,rutracker
   - DOMAIN-KEYWORD,adguard
-  - DOMAIN-KEYWORD,rutor
   - DOMAIN-KEYWORD,tiktok
