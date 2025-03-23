@@ -1,33 +1,37 @@
-name: Update Config Files
+name: Update OISD
 
 on:
-  push:
-    branches:
-      - main  # Или другая ветка, на которой находятся файлы
+  schedule:
+    - cron: '0 0 * * *' # Запуск каждый день в полночь
+  workflow_dispatch: # Возможность запустить вручную
 
 jobs:
-  build:
+  update-domains:
     runs-on: ubuntu-latest
-
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v3
+      - name: Checkout репозитория
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false # Важно!
 
-    - name: Set up Python
-      uses: actions/setup-python@v4
-      with:
-        python-version: '3.x'
+      - name: Загрузка списка доменов
+        run: curl -sL "https://raw.githubusercontent.com/sjhgvr/oisd/main/domainswild2_big.txt" -o domains.txt
 
-    - name: Install PyYAML
-      run: pip install pyyaml
+      - name: Преобразование в нужный формат
+        run: |
+          echo "payload:" > oisd.yaml
+          awk '{print "  - " $0}' domains.txt >> oisd.yaml
 
-    - name: Generate Clash, Shadowrocket, and Karing Configs
-      run: python generate_configs.py
+      - name: Проверка изменений
+        id: check_changes
+        run: |
+          git diff --quiet || echo "changed=true" >> $GITHUB_ENV
 
-    - name: Commit and push changes
-      run: |
-        git config --global user.name "github-actions[bot]"
-        git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-        git add Clash.yaml Shadowrocket.conf Karing.json
-        git commit -m "Update config files from list.lst"
-        git push
+      - name: Commit и Push изменений
+        if: env.changed == 'true'
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add oisd.yaml
+          git commit -m "Обновление списка доменов $(date +'%Y-%m-%d')" || exit 0
+          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:main
